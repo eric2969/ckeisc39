@@ -1,0 +1,210 @@
+*{
+	margin: 0px 0px 0px 0px;
+	padding: : 0px 0px 0px 0px;
+	border-width:0px 0px 0px 0px;
+	overflow-x: hidden;	
+	 -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('Makinas.otf');
+}
+@font-face {
+  font-family: 'aaa';
+  src: url('1.otf');
+}
+
+@font-face {
+  font-family: 'a';
+  src: url('ELIXIA.ttf');
+}
+
+
+.lebal{
+	width: 100vw;
+	height: 8vh;
+	position: fixed;
+	background-color:rgba(0,0,0,0.6);
+	z-index: 10;
+}
+#leebal{
+	right:auto;
+	width: 100vw;
+	height: 7vh;
+	position: absolute;
+	list-style-type: none;
+	display:inline;
+	color:white;
+	font-size: 6vh;
+	line-height: 6vh;
+	top:1vh;
+}
+#home{
+	width: 8vh;
+	height: 8vh;
+	background: rgba(255,255,255,0);
+	z-index: 100;
+}
+.bodity{
+	top: 8vh;
+	width: 100vw;
+	height: 1396vh;
+	position: absolute;
+	background:rgb(0,0,0,0.3);
+	overflow-y: hidden;
+}
+#homepage,#about,#class,#event,#contect{
+	left: 0px;
+	width: 100vw;
+	height: 400vh;
+	position: absolute;
+		overflow: hidden;
+
+}
+#homepage{
+	height: 92vh;
+}
+p{	
+	font-size: 8vh;
+	background: -o-linear-gradient(right,#ffb000,#dc267f);
+	background: -moz-linear-gradient(right,#ffb000,#dc267f);
+	background: linear-gradient(to right,#ffb000,#dc267f);
+	color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+#about{
+	top: 101vh;
+}
+#class {
+	top: 510vh;
+}
+#event{
+	top: 919vh;
+}
+#contect{
+	top: 1304vh;
+}
+
+
+
+
+
+
+#line{
+	position: absolute;
+	top: 50vh;
+	width: 100vw;
+	height: 5px;
+	background: #fe8500;
+}
+#title{
+	font-family: 'Abel', sans-serif;
+	font-size: 20vw;
+	line-height: 17vw;
+	letter-spacing:-2vw;
+	width: 100vw;
+	height: 16vw;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	background: -o-linear-gradient(right,#ffb000,#dc267f);
+background: -moz-linear-gradient(right,#ffb000,#dc267f);
+background: linear-gradient(to right,#ffb000,#dc267f);
+color: transparent;
+    -webkit-background-clip: text;
+
+}
+.block{
+	position: relative;
+	left: 2vw;
+	height: 60vh;
+	width: 80vw;
+	background:rgb(0,0,0,0.6);
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	color:white;
+	font-family: "Helvetica";
+	font-size: 6vh;
+	overflow: hidden;
+	opacity: 0.6;
+}
+#topic{
+	position: relative;
+	left: 2vw;
+	font-family: 'aaa', sans-serif;
+	font-size: 20vw;
+	line-height: 24vw;
+	letter-spacing:0;
+	overflow: hidden;
+	height: 24vw;
+	color: aquamarine;
+
+}
+
+.bt{
+	height: 8vh;
+	width: auto;
+	position: absolute;
+	font-family: "a";
+	font-size: 6vh;
+	line-height: 6vh;
+	top:1vh;
+	color: white;
+}
+
+polygon{
+	stroke:none;
+	fill: white;
+}
+#q{
+	opacity: 0.2;
+}
+#qq{
+	opacity: 0.4;
+}
+#qqq{
+	opacity: 0.6;
+}
+#qqqq{
+	opacity: 0.8;
+}
+#bg{z-index: -200;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: -webkit-linear-gradient(left,#ffb000,#dc267f);
+background: -o-linear-gradient(right,#ffb000,#dc267f);
+background: -moz-linear-gradient(right,#ffb000,#dc267f);
+background: linear-gradient(to right,#ffb000,#dc267f);
+}
+
+#sline{
+	width: 100vw;
+	position: relative;
+	height: 5px;
+	z-index: 100;
+	background: -webkit-linear-gradient(left,#ffb000,#dc267f);
+background: -o-linear-gradient(right,#ffb000,#dc267f);
+background: -moz-linear-gradient(right,#ffb000,#dc267f);
+background: linear-gradient(to right,#ffb000,#dc267f);
+	
+}
+a{
+	color:white;
+}
+.connect block > a:hover{
+	color:gray;
+}
+a:visited{
+	color:white;
+}
+a{
+	text-decoration: none;
+}
